@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+  <head>
+  </head>
+    <title>MurrayPhotos.com</title>
+    <meta charset="utf-8">
+
+    <style>
+        header, nav, main {
+            text-align: center;
+        }
+        nav img {
+            width: 15%;
+            border: 5px solid goldenrod;
+        }
+        nav a {
+            text-decoration: none;
+        }
+        main > img {
+            width: 70%;
+        }
+    </style>
+  <body>
+     <header>
+        <h1>Click your favorite Murray!</h1>
+        <nav>
+            <a href="http://www.fillmurray.com/200/300" title="murray" onclick="mainImage.src=this.href; return false;">
+            <img src="http://www.fillmurray.com/200/300" alt="old murray">
+            </a>
+            <a href="http://www.fillmurray.com/g/200/300" titile="murray" onclick="mainImage.src=this.href; return false;">
+            <img src="http://www.fillmurray.com/g/200/300" alt="gray murray">
+            </a>
+            <a href="http://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/p103861/murray.jpg" title="murray" onclick="mainImage.src=this.href; return false;">
+            <img src="http://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/p103861/murray.jpg" alt="young murray">
+            </a>
+        </nav>
+     </header>
+     <main>
+        <img name="mainImage"/>
+     </main>
+  </body>
+</html>
